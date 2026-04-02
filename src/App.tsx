@@ -3,6 +3,11 @@ import logo from './assets/logo.png'
 import heelImage from './assets/heel.jpg'
 import casualImage from './assets/casual.jpg'
 import boutiqueImage from './assets/boutique.jpg'
+type Product = {
+  title: string;
+  description: string;
+  image: string;
+};
 
 type Language = 'tr' | 'en' | 'ru'
 
